@@ -2,7 +2,12 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body{
-  background-color: #cccccc;
+  background-color: #e6e6e6;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
 }

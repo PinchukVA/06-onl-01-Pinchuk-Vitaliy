@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.awesome {
+  background-color: #fff;
+  padding: 15px;
+}
+.awesome-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #212121;
+}
+.awesome-line {
+}
+.awesome-text {
+}
+.awesome-cards {
+}
+.awesome-cards__item {
+}
+.awesome-cards__item-icon {
+}
+.awesome-cards__item-img {
+}
+.awesome-cards__item-title {
+}
+.awesome_cards__item-text {
+}
