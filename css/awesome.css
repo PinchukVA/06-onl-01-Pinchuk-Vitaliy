@@ -13,10 +13,22 @@
   text-transform: uppercase;
   text-align: center;
   color: #212121;
+  margin: 100px 0px 25px 0px;
 }
 .awesome-line {
+  width: 64px;
+  margin: 0 auto;
+  border: 0.5px solid #D98943;
+  background-color:#D98943 ;
 }
 .awesome-text {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #86878B;
+text-align: center;
+margin-top: 30px;
 }
 .awesome-cards {
 }
