@@ -38,6 +38,7 @@ justify-content: space-between;
 }
 .awesome-cards__item {
 max-width: 350px;
+margin: 0 10px;
 }
 .awesome-cards__item-circle{
   width: 70px;
@@ -66,5 +67,4 @@ font-weight: normal;
 font-size: 14px;
 text-align: center;
 color: #000000;
-padding: 0 10px;
 }
