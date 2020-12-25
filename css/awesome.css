@@ -31,14 +31,40 @@ text-align: center;
 margin-top: 30px;
 }
 .awesome-cards {
+  margin-top: 36px;
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 .awesome-cards__item {
+max-width: 350px;
 }
-.awesome-cards__item-icon {
-}
-.awesome-cards__item-img {
+.awesome-cards__item-circle{
+  width: 70px;
+  height: 70px;
+  border: 1px  solid #D98943;
+  border-radius: 50%;
+  margin: 0 auto;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 .awesome-cards__item-title {
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+color: #333333;
+text-align: center;
+margin-bottom: 16px;
 }
 .awesome_cards__item-text {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+text-align: center;
+color: #000000;
+padding: 0 10px;
 }
