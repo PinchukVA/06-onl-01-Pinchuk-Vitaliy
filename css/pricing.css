@@ -28,3 +28,81 @@ width: 340px;
 margin: 0 10px;
 padding-bottom:80px;
 }
+.pricing-card__list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  .pricing-card__list{
+    width: 100%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #86878B;
+    }
+    .pricing-card__list li{
+      font-family: Open Sans;
+      margin: 2px 0px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 40px;
+      text-align: center;
+      background-color: #ffffff;
+      color: #86878B;
+      }
+li.pricing-card__list_black{
+  background-color: #333333;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 50px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: -1px;
+}
+li.pricing-card__list_big{
+  background-color: #333333;
+  line-height: 100px;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+.pricing-card_list_big-sign{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  color: #FFFFFF;
+}
+.pricing-card_list_big-numb{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+li.pricing-card__list_third{
+  background-color: #333333;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 50px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+}
+li.pricing-card__list_orange{
+  background-color: #D98943;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 50px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+}
