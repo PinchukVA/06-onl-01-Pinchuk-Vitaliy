@@ -14,8 +14,8 @@ margin-top: 30px;
 .awesome-card {
 margin-top: 36px;
 display: flex;
-flex-direction: row;
-justify-content: space-between;
+justify-content: center;
+flex-wrap: wrap;
 }
 .awesome-card__item {
 max-width: 350px;

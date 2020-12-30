@@ -20,8 +20,8 @@ margin-top: 34px;
 .pricing-card {
 margin-top: 64px;
 display: flex;
-flex-direction: row;
-justify-content: space-between;
+flex-wrap: wrap;
+justify-content: center;
 }
 .pricing-card__item {
 width: 340px;
