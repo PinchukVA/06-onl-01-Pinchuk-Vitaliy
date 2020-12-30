@@ -1,0 +1,30 @@
+.pricing {
+  padding: 15px;
+ background-color:#F5F5F5;
+}
+.pricing-heading {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+}
+.pricing-title {
+  padding: 80px 0px 34px 0px;
+}
+.pricing-line {
+   margin: 0 auto;
+}
+.pricing-text {
+margin-top: 34px;
+}
+.pricing-card {
+margin-top: 64px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.pricing-card__item {
+width: 340px;
+margin: 0 10px;
+padding-bottom:80px;
+}

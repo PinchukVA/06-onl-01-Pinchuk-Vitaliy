@@ -1,46 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .awesome {
-  background-color: #fff;
   padding: 15px;
 }
 .awesome-title {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #212121;
-  margin: 100px 0px 25px 0px;
+  padding: 100px 0px 25px 0px;
 }
 .awesome-line {
-  width: 64px;
-  margin: 0 auto;
-  border: 0.5px solid #D98943;
-  background-color:#D98943 ;
+margin: 0 auto;
 }
 .awesome-text {
-font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-color: #86878B;
-text-align: center;
 margin-top: 30px;
 }
-.awesome-cards {
-  margin-top: 36px;
-  display: flex;
+.awesome-card {
+margin-top: 36px;
+display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
-.awesome-cards__item {
+.awesome-card__item {
 max-width: 350px;
 margin: 0 10px;
+padding-bottom:90px;
 }
-.awesome-cards__item-circle{
+.awesome-card__item-circle{
   width: 70px;
   height: 70px;
   border: 1px  solid #D98943;
@@ -51,7 +33,7 @@ margin: 0 10px;
   justify-content: center;
   margin-bottom: 30px;
 }
-.awesome-cards__item-title {
+.awesome-card__item-title {
 font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
@@ -60,7 +42,7 @@ color: #333333;
 text-align: center;
 margin-bottom: 16px;
 }
-.awesome_cards__item-text {
+.awesome_card__item-text {
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
