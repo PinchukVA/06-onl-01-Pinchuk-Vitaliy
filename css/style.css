@@ -21,10 +21,14 @@
   text-align: center;
   color: #212121;
 }
-.title-line {
-  width: 64px;
-  background-color:#D98943 ;
-  border: 0.5px solid #D98943;
+.title::after {
+    content: "";
+    display: block;
+    margin: 34px auto;
+    width: 64px;
+    background-color:#D98943 ;
+    border: 0.5px solid #D98943;
+  
 }
 .text {
 font-family: Open Sans;
