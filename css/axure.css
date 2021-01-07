@@ -2,6 +2,19 @@
   background: url('../image/bg/background_axure.png') no-repeat;
   background-size: cover;
   background-position: center center;
+  position: relative;
+}
+.axure::before{
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
+
 }
 .axure-blackout{
 background-color: rgba(0, 0, 0, 0.55);
@@ -15,6 +28,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 color: #FFFFFF;
+z-index: 3;
 }
 .axure-title::after {
     content: "";

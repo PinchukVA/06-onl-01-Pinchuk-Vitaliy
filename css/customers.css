@@ -5,3 +5,75 @@
 .customers-text {
 margin: 0px auto;
 }
+.customers-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 57px auto 80px;
+  }
+  .customers-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  max-width: 298px;
+  margin: 20px 30px;
+  }
+  .customers-comment{
+text-align: center;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #86878B;
+padding: 8px 16px 9px;
+background: #E2E2E2;
+border-radius: 7px;
+position: relative;
+margin-bottom: 10px;
+  }
+  .customers-comment::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid #E2E2E2;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    left: 50;
+    display: block;
+}
+.customers-info{
+  margin-top: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.customer-extra{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.customers-name{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: right;
+  color: #333333;
+}
+
+.customers-post{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: right;
+color: #86878B;
+}
