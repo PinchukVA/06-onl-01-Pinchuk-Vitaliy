@@ -1,0 +1,59 @@
+.axure{
+  background: url('../image/bg/background_axure.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.axure-blackout{
+background-color: rgba(0, 0, 0, 0.55);
+}
+.axure-title {
+  padding-top: 58px;
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+}
+.axure-title::after {
+    content: "";
+    display: block;
+    margin: 34px auto;
+    width: 64px;
+    border: 1px solid #FFFFFF;
+    border: 0.5px solid #ffffff;
+}
+.axure-text {
+  margin-bottom: 57px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+.axure-download{
+  display: block;
+  width: 135px;
+  margin: 30px auto 0;
+  padding-bottom: 38px;
+}
+.axure-download a{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 11px 26px;
+  border: 1px solid #FFFFFF;
+  transition: 1.06s;
+}
+.axure-download a:hover{
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  background-color: rgb(255, 255, 255);
+}
