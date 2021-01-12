@@ -1,0 +1,80 @@
+.footer {
+  width: 100%;
+  background-color: black;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 0px 18px 0px;
+}
+.fab {
+font-size: 25px;
+font-weight: 400;
+font-family: "Font Awesome 5 Brands";
+margin: 0px 20px;
+transition: 1.06s;
+}
+.fa-facebook-f {
+color: rgba(255, 255, 255, 0.5);
+}
+.fa-facebook-f:hover{
+  color: rgba(38, 105, 230, 0.9);
+  }
+.fa-twitter {
+  color: rgba(255, 255, 255, 0.5);
+}
+.fa-twitter:hover {
+  color: rgba(113, 184, 241, 0.9);
+}
+.fa-google-plus-g {
+  color: rgba(255, 255, 255, 0.5);
+}
+.fa-google-plus-g:hover {
+  color: rgba(247, 66, 66, 0.9);
+}
+.fa-pinterest {
+  color: rgba(255, 255, 255, 0.5);
+}
+.fa-pinterest:hover {
+  color: rgba(235, 12, 12, 0.9);
+}
+.fa-instagram {
+  color: rgba(255, 255, 255, 0.5);
+}
+.fa-instagram:hover {
+  color: rgba(240, 36, 206, 0.90);
+}
+.fa-stumbleupon {
+  color: rgba(255, 255, 255, 0.5);
+}
+.fa-stumbleupon:hover {
+  color: rgba(224, 24, 24, 0.90);
+}
+.fas {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Font Awesome 5 Brands";
+  margin: 0px 20px;
+  transition: 1.06s;
+}
+.fa-rss {
+  color: rgba(255, 255, 255, 0.5);
+}
+.fa-rss:hover {
+  color: rgba(238, 92, 25, 0.9);
+}
+.footer-rights {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+transition: 1.06s;
+padding-bottom: 15px;
+}
+.footer-rights:hover{
+  color: #ec7979b6;
+  }
