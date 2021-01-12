@@ -14,12 +14,15 @@ margin: 0px auto;
   .customers-card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
-  max-width: 298px;
+    max-width: 298px;
   margin: 20px 30px;
   }
   .customers-comment{
+display: flex;
+align-items: center;
+flex-grow: 1;
 text-align: center;
 font-family: Open Sans;
 font-style: normal;
@@ -37,11 +40,12 @@ margin-bottom: 10px;
     content: "";
     width: 0;
     height: 0;
-    border-top: 20px solid #E2E2E2;
-    border-right: 20px solid transparent;
-    border-left: 20px solid transparent;
+    border-top: 17px solid #E2E2E2;
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
     position: absolute;
-    left: 50;
+    left: 15%;
+    top: 100%;
     display: block;
 }
 .customers-info{
