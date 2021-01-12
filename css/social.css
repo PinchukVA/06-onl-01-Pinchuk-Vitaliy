@@ -1,0 +1,40 @@
+.social {
+background-color:  #F8EFEF;
+padding-bottom: 10px;
+}
+.social-main{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.social-article {
+  max-width: 365px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.social-title {
+color: #333333;
+padding: 7px 0px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+}
+.social-text {
+padding:7px 0px;
+color: #86878B;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px; 
+}
+.social-icon {
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
