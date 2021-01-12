@@ -59,36 +59,42 @@ text-align: center;
   }
   .fa-facebook-f:hover{
     color: rgba(38, 105, 230, 0.9);
+    transform: scale(1.2);
     }
   .fa-twitter {
     color: rgb(179, 178, 178);
   }
   .fa-twitter:hover {
     color: rgba(113, 184, 241, 0.9);
+    transform: scale(1.2);
   }
   .fa-google-plus-g {
     color: rgb(179, 178, 178);
   }
   .fa-google-plus-g:hover {
     color: rgba(247, 66, 66, 0.9);
+    transform: scale(1.2);
   }
   .fa-pinterest {
     color: rgb(179, 178, 178);
   }
   .fa-pinterest:hover {
     color: rgba(235, 12, 12, 0.9);
+    transform: scale(1.2);
   }
   .fa-instagram {
     color: rgb(179, 178, 178);
   }
   .fa-instagram:hover {
     color: rgba(240, 36, 206, 0.90);
+    transform: scale(1.2);
   }
   .fa-stumbleupon {
     color: rgb(179, 178, 178);
   }
   .fa-stumbleupon:hover {
     color: rgba(224, 24, 24, 0.90);
+    transform: scale(1.2);
   }
   .fas {
     font-weight: 400;
@@ -101,4 +107,5 @@ text-align: center;
   }
   .fa-rss:hover {
     color: rgba(238, 92, 25, 0.9);
+    transform: scale(1.2);
   }
