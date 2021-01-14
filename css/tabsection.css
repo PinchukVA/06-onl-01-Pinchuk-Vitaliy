@@ -25,7 +25,7 @@
   color: #FFFFFF;
   padding: 45px 35px;
   margin:5px;
-  transition: all 1.06s;
+  transition: all 0.25s;
   }
   .tabsection-tabs__item:first-child{
   background-color:#EC7979;
@@ -73,9 +73,11 @@
     width: 135px;
     
   }
-  .tabsection-download a{
-    position: relative;
-    z-index: 3;
+
+  .tabsection-download{
+    margin: 16px 0px;
+    display: block;
+    width: 135px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
@@ -83,14 +85,15 @@
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
+    transition: 0.25s;
     padding: 11px 26px;
-    transition: 1.06s;
     background-color: #EC7979;
   }
-  .tabsection-download a:hover{
-    color: rgb(255, 255, 255);
+  .tabsection-download:hover{
     background-color:#333333;
   }
+
+
   .tabsection-effect{
   margin-right: 10px;
 

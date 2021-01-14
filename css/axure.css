@@ -5,6 +5,10 @@
   background-size: cover;
   position: relative;
 }
+.axure-container {
+  position: relative;
+  z-index: 3;
+}
 .axure::after{
   content: " ";
   position: absolute;
@@ -19,7 +23,6 @@
 background-color: rgba(0, 0, 0, 0.55);
 }
 .axure-title {
-  position: relative;
   padding-top: 58px;
   font-family: Raleway;
 font-style: normal;
@@ -28,7 +31,6 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 color: #FFFFFF;
-z-index: 3;
 }
 .axure-title::after {
     content: "";
@@ -39,8 +41,6 @@ z-index: 3;
     border: 0.5px solid #ffffff;
 }
 .axure-text {
-  position: relative;
-  z-index: 3;
   margin-bottom: 57px;
   font-family: Raleway;
   font-style: normal;
@@ -51,16 +51,12 @@ z-index: 3;
   color: rgba(255, 255, 255, 0.8);
 }
 .axure-download{
-  position: relative;
-  z-index: 3;
   display: block;
   width: 135px;
   margin: 30px auto 0;
   padding-bottom: 38px;
 }
 .axure-download a{
-  position: relative;
-  z-index: 3;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -70,7 +66,7 @@ z-index: 3;
   color: #FFFFFF;
   padding: 11px 26px;
   border: 1px solid #FFFFFF;
-  transition: 1.06s;
+  transition: 0.25s;
 }
 .axure-download a:hover{
   color: rgb(0, 0, 0);

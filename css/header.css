@@ -37,7 +37,7 @@
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);
   text-decoration:none;
-  transition: all 1.06s;
+  transition: all 0.25s;
   margin: 0px 24px;
   }
   .header-nav__reference:hover{

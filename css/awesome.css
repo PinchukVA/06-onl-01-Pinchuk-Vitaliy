@@ -25,7 +25,7 @@ padding-bottom:90px;
 .awesome-card__item-circle{
   width: 70px;
   height: 70px;
-  border: 1px  solid #D98943;
+  border: 1px  solid #EC7979;
   border-radius: 50%;
   margin: 0 auto;  
   display: flex;
@@ -33,6 +33,7 @@ padding-bottom:90px;
   justify-content: center;
   margin-bottom: 30px;
 }
+
 .awesome-card__item-title {
 font-family: Open Sans;
 font-style: normal;
