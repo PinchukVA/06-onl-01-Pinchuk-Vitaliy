@@ -111,3 +111,29 @@ text-align: center;
     color: rgba(238, 92, 25, 0.9);
     transform: scale(1.2);
   }
+  @media (max-width: 910px) { 
+    .title::after {
+      content: "";
+      display: block;
+      margin: 34px auto;
+      width: 45%;
+      background-color:#D98943 ;
+      border: 0.5px solid #D98943;
+  }
+  }
+  @media  (max-width: 550px) { 
+    .fab {
+      margin: 20px 40px;
+      }
+      .fas {
+        margin: 20px 40px;
+      }
+  }
+  @media  (max-width: 370px) { 
+    .fab {
+      margin: 20px 20px;
+      }
+      .fas {
+        margin: 20px 20px;
+      }
+  }

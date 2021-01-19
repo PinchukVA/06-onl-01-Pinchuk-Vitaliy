@@ -27,6 +27,18 @@
   justify-content:space-between;
   align-items:center;
   }
+  .header-burger {
+max-width: 60px;
+  }
+
+  .header-burger__item {
+    display: inline-block;
+  width: 50px;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  margin: 3px 0;
+  }
+
   .header-nav__reference{
   font-family: Open Sans;
   font-style: normal;
@@ -42,4 +54,15 @@
   }
   .header-nav__reference:hover{
   color:#EC7979; 
+  }
+
+  @media (min-width: 701px) { 
+    .header-burger {
+      display: none;
+        }
+  }
+  @media (max-width: 700px) { 
+    .header-nav{
+      display:none;
+      }
   }

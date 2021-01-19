@@ -84,3 +84,38 @@ margin: 0px auto;
       color: #FFFFFF;
       cursor: pointer;
       }
+
+      @media (max-width: 1100px) { 
+        .contact-form__input-place{
+          display: flex;
+          flex-direction: column;
+          max-width: 80%;
+          margin: 25px;
+          justify-content: space-between;
+        }
+        .contact-form__message-place{
+          display: flex;
+          flex-direction: column;
+          max-width: 80%;
+          margin: 45px;
+          justify-content: space-between;
+        }
+        .contact-form__button{
+          width: 80%;
+          display: block;
+          background-color: #EC7979;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 20px;
+          text-align: center;
+          color: #FFFFFF;
+          text-transform: capitalize;
+          border: none; 
+          padding: 11px 30px;
+          text-decoration: none;
+          transition: 0.25s;
+          margin: 40px auto;
+          }
+      }

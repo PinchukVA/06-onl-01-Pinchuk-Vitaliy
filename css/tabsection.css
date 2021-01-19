@@ -123,3 +123,127 @@
   opacity:0.5;
   top:100%;
       }
+
+      @media (max-width: 1100px) { 
+        .tabsection-tabs{
+          display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+    margin: 35px 0px;
+          }
+          .tabsection-tabs__item{
+           width:25%;
+            }
+            .tabsection {
+              padding-top: 10px;
+          }
+          .tabsection-main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .tabsection-info {
+          max-width: 520px;
+          margin: 0px 30px;
+      }
+      .tabsection-effect {
+        margin:30px;
+    }
+    .tabsection-title {
+      margin: 15px 0px;
+  }
+  .tabsection-text {
+    margin: 15px 0px;
+}
+.tabsection-download {
+  width: 100%;
+}
+      }
+      @media (max-width: 990px) { 
+        .tabsection-tabs{
+          display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+    margin: 35px 0px;
+          }
+          .tabsection-tabs__item{
+           width:25%;
+            }
+            .tabsection {
+              padding-top: 10px;
+          }
+          .tabsection-main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .tabsection-info {
+          max-width: 90%;
+          margin: 0px 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .tabsection-effect {
+        display: none;
+    }
+    .tabsection-title {
+      margin: 15px 0px;
+  }
+  .tabsection-text {
+    margin: 15px 0px;
+    width: 80%;
+    text-align: center;
+}
+.tabsection-download {
+  width: 100%;
+}
+      }
+
+      @media (max-width: 500px) { 
+          .tabsection-tabs__item{
+           width:30%;
+           font-size: 12px;
+           line-height: 18px;
+           text-align: center;
+           text-transform: uppercase;
+           color: #FFFFFF;
+           padding: 20px 25px;
+           margin:5px;
+            }
+            .tabsection-title {
+              width: 100%;
+              margin: 8px 0px;
+          }
+          .tabsection-text {
+            margin: 8px 0px;
+            width:100%;
+            text-align: center;
+        }
+      }
+      @media (max-width: 385px) { 
+          .tabsection-tabs__item{
+           width:25%;
+           font-size: 12px;
+           line-height: 18px;
+           text-align: center;
+           text-transform: uppercase;
+           color: #FFFFFF;
+           padding: 15px 15px;
+           margin:5px;
+            }
+            .tabsection-title {
+              width: 100%;
+              margin: 8px 0px;
+          }
+          .tabsection-text {
+            margin: 8px 0px;
+            width:100%;
+            text-align: center;
+        }
+      }
